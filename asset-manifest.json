@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/stem-cards-react/static/css/main.0a5608a7.chunk.css",
+    "main.js": "/stem-cards-react/static/js/main.b4f09884.chunk.js",
+    "main.js.map": "/stem-cards-react/static/js/main.b4f09884.chunk.js.map",
+    "runtime-main.js": "/stem-cards-react/static/js/runtime-main.6377b5fc.js",
+    "runtime-main.js.map": "/stem-cards-react/static/js/runtime-main.6377b5fc.js.map",
+    "static/js/2.4ce70efd.chunk.js": "/stem-cards-react/static/js/2.4ce70efd.chunk.js",
+    "static/js/2.4ce70efd.chunk.js.map": "/stem-cards-react/static/js/2.4ce70efd.chunk.js.map",
+    "index.html": "/stem-cards-react/index.html",
+    "precache-manifest.2a5b1e63940d9505662aaeb8afe79e61.js": "/stem-cards-react/precache-manifest.2a5b1e63940d9505662aaeb8afe79e61.js",
+    "service-worker.js": "/stem-cards-react/service-worker.js",
+    "static/css/main.0a5608a7.chunk.css.map": "/stem-cards-react/static/css/main.0a5608a7.chunk.css.map",
+    "static/js/2.4ce70efd.chunk.js.LICENSE.txt": "/stem-cards-react/static/js/2.4ce70efd.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/stem-cards-react/static/media/stars4.4d548a17.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6377b5fc.js",
+    "static/js/2.4ce70efd.chunk.js",
+    "static/css/main.0a5608a7.chunk.css",
+    "static/js/main.b4f09884.chunk.js"
+  ]
+}
