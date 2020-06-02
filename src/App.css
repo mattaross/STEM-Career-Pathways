@@ -1,38 +1,440 @@
-.App {
+/* Using Color Palette 167667 from colorhunt.co */
+
+.home-body {
+  background-attachment: fixed;
+  background-image: url("stars4.gif"), radial-gradient(#f0e3ff, #916dd5, #3e206d 80%);
+  background-repeat: repeat, no-repeat;
+  font-family: 'Noto Sans', sans-serif;
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  /* background-size: 160px 150px, auto; */
+  /* background-size: 180px 120px, auto; */
+}
+
+body {
+  /* background-color: #f0e3ff; */
+  background-attachment: fixed;
+  background-image: radial-gradient(#916dd5, #3e206d 70%);
+  font-family: 'Roboto', sans-serif;
+}
+
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.content-wrap {
+  padding-bottom: 2.5rem;
+}
+
+nav {
+  background-color: #bbded6;
+  border: 0.6px solid black;
+  border-radius: 30px;
+  opacity: 0.9;
+  display: inline-block;
+  margin: 0 auto;
+  min-width: 450px;
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  width: 23%;
+}
+
+nav ul {
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+.non-home-nav {
+  /* background-color: #3e206d; */
+  background-color: #916dd5;
+  border-bottom: solid 1px black;
+}
+
+.non-home-nav ul {
+  font-weight: bold;
+}
+
+.non-home-nav li {
+  margin: 0 10px;
+}
+
+.dropdown-item:hover {
+  color: #F0E3FF;
+  background-color: #212536;
+}
+
+.navbar-brand {
+  color: #f0e3ff;
+  margin: 0 25px 0 0;
+  padding: 0;
+}
+
+.STEM {
+  color: #fff;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 6rem;
+  margin-top: 10%;
+  text-align: center;
+  text-shadow: 0 0 4px #21243d;
+}
+
+.title {
+  color: #bbded6;
+  /* color: #27496d; */
+  /* color: #81f5ff; */
+  font-family: 'Baloo Bhaijaan', cursive;
+  text-align: center;
+  -webkit-text-stroke: 0.6px #21243d;
+  /* text-shadow: 0 0 4px #21243d; */
+}
+
+.buttons {
+  margin-top: 3%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn {
+  border: 2px solid;
+  margin: 10px;
+  width: 19rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+i {
+  color: #bbded6;
+  margin-top: 25px;
+  opacity: 0.9;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.icon-container {
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.non-home-title {
+  color: #f0e3ff;
+  font-weight: bold;
+  margin-top: 25px;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.quiz-container {
+  background-color: #e4f2f0;
+  border: 2px solid #27496d;
+  border-radius: 30px;
+  color: #3e206d;
+  padding: 30px 75px;
+  margin: 50px auto;
+  width: 40%;
+}
+
+.quiz-question {
+  font-weight: bold;
+}
+
+.quiz-answer {
+  position: relative;
+  left: 25px;
+}
+
+.about-container {
+  color: #f0e3ff;
+  margin: 0 auto;
+  width: 40%;
+}
+
+.underlined-text {
+  text-decoration: underline;
+}
+
+hr {
+  border-top: 2px dashed rgba(145,109,213,.7);
+  margin: 0;
+}
+
+p {
+  margin-top: 16px;
+}
+
+.options {
+  margin: 0 auto;
+  text-align: center;
+  width: 70%;
+}
+
+.option-card {
+  background-color: #e4f2f0;
+  border: 0.6px solid black;
+  color: #3e206d;
+  height: 26rem;
+  margin: 0 1.5rem;
+  opacity: 0.9;
+}
+
+.option-card:hover {
+  box-shadow: 0 0 40px #fff;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  margin: 25px;
+}
+
+.indent {
+  margin-left: 5%;
+}
+
+.sign-in-reminder {
+  bottom: 20%;
+  margin: 0 10%;
+  position: absolute;
+  width: 80%;
+}
+
+.option-btn {
+  bottom: 6%;
+  margin: 0 20%;
+  position: absolute;
+  width: 60%;
+}
+
+.arrow {
+  font-weight: bolder;
+}
+
+footer {
+  bottom: 0;
+  color: #ededed;
+  height: 2.5rem;
+  margin-top: 100px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.footer-text {
+  margin: 24px 0;
+}
+
+.interest-tiles-area {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 4rem auto;
+  text-align: center;
+  width: 90%;
+}
+
+.interest-tiles-area h4 {
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.interest-checkboxes input[type=checkbox] {
+  display: none;
+}
+
+.interest-checkboxes input[type=checkbox]:checked + .interest-tile {
+  border: 4px solid #007BFF;
+}
+
+.interest-tile {
+  background-color: #e4f2f0;
+  border: 1px solid black;
+  box-shadow: 0 0 10px #23374d;
+  color: #3e206d;
+  margin-bottom: 1.2rem;
+  opacity: 0.95;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.interest-tile:hover {
+  box-shadow: 0 0 15px #fff;
+  color: #916dd5;
+  transform: scale3d(1.1, 1.1, 2);
+  transition: 0.3s;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.careers-accordion {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.accordion-card {
+  background-color: #e4f2f0;
+  border: 1px solid black;
+  color: #3e206d;
+  /* opacity: 0.9; */
+}
+
+.accordion-card h2 {
+  font-weight: bold;
+}
+
+.accordion-card-header {
+  padding-left: 1.8rem;
+}
+
+.accordion-card-body {
+  background-color: #f7f7f7;
+  border-top: 0.6px solid #ededed;
+  padding-left: 1.8rem;
+}
+
+.accordion-btn {
+  border-color: #3e206d;
+  color: #3e206d;
+  height: 2.2rem;
+  margin: 0;
+  position: absolute;
+  right: 1.8rem;
+  top: 1rem;
+  width: 2.5rem;
+}
+
+.subAccordion-header {
+  background-color: #f7f7f7;
+  padding: 0;
+}
+
+.subAccordion-btn {
+  border: none;
+  color: #3e206d;
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.subAccordion-btn:hover {
+  text-decoration: none;
+}
+
+.subAccordion-btn.focus, .subAccordion-btn:focus {
+    text-decoration: none;
+}
+
+.subAccordion-body {
+  padding-left: 2.5rem;
+}
+
+.subAccordion-list {
+  margin: 0;
+}
+
+.career-card {
+  background-color: #e4f2f0;
+  border: 0.6px solid black;
+  color: #3e206d;
+  margin: 0 auto;
+  padding: 1rem;
+  width: 60%;
+}
+
+.career-card-title {
+  margin: 0;
+}
+
+.career-card-text {
+  margin: 0;
+}
+
+.career-card-split-container {
+  width: 100%;
+}
+
+.career-card-split-container-right, .career-card-split-container-left {
+  display: inline-block;
+  vertical-align: top;
+  width: 47%;
+}
+
+.career-card-split-container-right {
+  text-align: center;
+}
+
+.career-card-img {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 95%;
+}
+
+.careers-by-image-row {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.career-img-card {
+  height: 250px;
+  margin: 30px 0;
+  text-align: center;
+}
+
+.by-image-image {
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 100%;
+  max-width: 372px;
+}
+.by-image-image:hover {
+  box-shadow: 0 0 15px #fff;
+  color: #916dd5;
+  transform: scale3d(1.1, 1.1, 2);
+  transition: 0.3s;
+}
+
+.by-interest-page-text {
+  color: #f0e3ff;
+  font-size: 1.3rem;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.careers-by-interest-accordion {
+  margin-bottom: 1rem;
+  width: 70%;
+}
+
+.careers-by-interest-accordion h2 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.by-interest-accordion-btn {
+  border-color: #3e206d;
+  color: #3e206d;
+  height: 2.2rem;
+  margin: 0;
+  position: absolute;
+  right: 1.8rem;
+  top: 0.5rem;
+  width: 2.5rem;
+}
+
+.by-interest-selection-page-text {
+  color: #f0e3ff;
+  display: inline-block;
+  font-size: 1.3rem;
+  margin: 2rem 20% 0 20%;
+  text-align: center;
+  width: 60%;
+}
+
+.by-interest-submit-btn {
+  border: 2px solid rgb(121, 72, 255);
+}
+
+.by-interest-submit-btn:hover {
+  border: 2px solid rgb(230, 230, 230);
 }
